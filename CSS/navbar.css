@@ -1,0 +1,71 @@
+.navbar {
+    background-color: #192a56;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #f8f9fa;
+}
+
+.nav-links li a {
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #2e9cca;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.nav-links li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.btns {
+    font-family: "Raleway", sans-serif;
+    margin: 5px;
+    border: 1px solid #2e9cca;
+    padding: 4px;
+    border-radius: 16px;
+    min-width: 100px;
+    background-color: #2e9cca;
+    color: white;
+    transition: 0.5s;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.btns:hover {
+    background-color: #192a56;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 3.5px solid #2e9cca;
+}
+.container {
+    font-family: "Raleway", sans-serif;
+}
