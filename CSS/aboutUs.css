@@ -21,3 +21,9 @@
 img{
     width: 100%;
 }
+
+.img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 50px 0px #1b1b1b94;
+    
+}
