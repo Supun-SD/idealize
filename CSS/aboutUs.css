@@ -1,0 +1,23 @@
+.container h1{
+    font-weight: bolder;
+    color: #192a56 ;
+}
+
+.heading{
+    margin-top: 120px;
+    font-weight: bolder;
+    color: #192a56 ;
+}
+
+.heading span{
+    border-bottom: 5px #2e9cca solid;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: larger;
+}
+
+img{
+    width: 100%;
+}
