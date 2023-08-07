@@ -1,29 +1,49 @@
-.container h1{
+.container h1 {
     font-weight: bolder;
-    color: #192a56 ;
+    color: #192a56;
 }
 
-.heading{
+.heading {
     margin-top: 120px;
     font-weight: bolder;
-    color: #192a56 ;
+    color: #192a56;
 }
 
-.heading span{
+.heading span {
     border-bottom: 5px #2e9cca solid;
 }
 
-.paragraph{
+.paragraph {
     text-align: justify;
     font-size: larger;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.img{
+.img {
     border-radius: 50%;
-    box-shadow: 2px 2px 50px 0px #1b1b1b94;
-    
+    box-shadow: 0px 0px 50px 0px #1b1b1b94;
+}
+
+.img2{
+    border-radius: 50%;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-container:hover .hover-image {
+    opacity: 0.8;
 }
