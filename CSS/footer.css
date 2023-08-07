@@ -1,0 +1,39 @@
+footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0.9669117647058824) 0%,
+        rgba(25, 42, 86, 1) 33%,
+        rgba(46, 156, 202, 1) 100%
+    );
+    text-align: center;
+}
+
+.quicklinks {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.quicklinks li {
+    display: inline;
+}
+
+.quicklinks li a {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    padding: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.quicklinks li a:hover {
+    color: white;
+}
+
+.contact {
+    color: white;
+}
+
+.contact span {
+    padding: 0 5px;
+}
+
