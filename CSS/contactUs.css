@@ -1,0 +1,68 @@
+.container{
+    color: black;
+}
+
+.heading {
+    margin-top: 120px;
+    font-weight: bolder;
+    color: #192a56;
+}
+
+.heading span {
+    border-bottom: 5px #2e9cca solid;
+}
+
+.help{
+    font-weight: bold;
+    margin-top: 40px;
+    color: black;
+}
+
+.input {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.line-container {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 100%;
+    height: 0.05mm;
+    background-color: black;
+}
+
+.line-text {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 10px;
+}
+
+.submit {
+    margin: 5px;
+    border: 1px solid #2e9cca;
+    padding: 4px;
+    border-radius: 16px;
+    min-width: 100px;
+    background-color: #2e9cca;
+    color: white;
+    transition: 0.5s;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
