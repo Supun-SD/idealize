@@ -1,0 +1,86 @@
+.container{
+    font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    height: 50px;
+    transition: 0.5s ease-in-out;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px 10px b;
+}
+
+.info {
+    color: white;
+    background: rgb(46, 156, 202);
+    background: linear-gradient(30deg, rgba(46, 156, 202, 1) 0%, rgba(25, 42, 86, 1) 100%);
+    padding: 100px;
+}
+
+input{
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.login{
+    padding: 50px;
+}
+
+.createacc a{
+    color: rgb(59, 147, 185);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.createacc a:hover{
+    color: rgb(34, 78, 97);
+    font-weight: bold;
+}
+
+.login-button {
+    margin: 5px;
+    border: 1px solid #2e9cca;
+    padding: 4px;
+    border-radius: 16px;
+    min-width: 200px;
+    background-color: #2e9cca;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.forgot{
+    font-size: small;
+    color: rgb(59, 147, 185);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.forgot:hover{
+    color: rgb(34, 78, 97);
+    font-weight: bold;
+}
+
+.pwinput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pw{
+    font-weight: bold;
+}
