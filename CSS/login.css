@@ -1,4 +1,10 @@
-.container{
+.content{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container {
     font-family: "Raleway", sans-serif;
 }
 
@@ -21,25 +27,30 @@
     padding: 100px;
 }
 
-input{
+input {
     width: 100%;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     height: 35px;
+    transition: 0.5s;
 }
 
-.login{
+input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.login {
     padding: 50px;
 }
 
-.createacc a{
+.createacc a {
     color: rgb(59, 147, 185);
     text-decoration: none;
     transition: 0.5s;
 }
 
-.createacc a:hover{
+.createacc a:hover {
     color: rgb(34, 78, 97);
     font-weight: bold;
 }
@@ -63,24 +74,37 @@ input{
     cursor: pointer;
 }
 
-.forgot{
+.forgot {
     font-size: small;
     color: rgb(59, 147, 185);
     text-decoration: none;
     transition: 0.5s;
 }
 
-.forgot:hover{
+.forgot:hover {
     color: rgb(34, 78, 97);
     font-weight: bold;
 }
 
-.pwinput{
+.pwinput {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.pw{
+.pw {
     font-weight: bold;
+}
+
+.pw-container {
+    position: relative;
+}
+
+.show-n-hide {
+    width: 15px;
+    position: absolute;
+    top: 56%;
+    right: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }

@@ -1,0 +1,100 @@
+
+.content{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    margin-bottom: 200px;
+}
+
+.container {
+    font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    height: 50px;
+    transition: 0.5s ease-in-out;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px 10px b;
+}
+
+.info {
+    color: white;
+    background: rgb(46, 156, 202);
+    background: linear-gradient(30deg, rgba(46, 156, 202, 1) 0%, rgba(25, 42, 86, 1) 100%);
+    padding: 100px;
+}
+
+.input {
+    width: 100%;
+    padding : 0px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.login {
+    padding: 50px;
+}
+
+.createacc a {
+    color: rgb(59, 147, 185);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.createacc a:hover {
+    color: rgb(34, 78, 97);
+    font-weight: bold;
+}
+
+.signup-button {
+    margin: 5px;
+    border: 1px solid #2e9cca;
+    padding: 4px;
+    border-radius: 16px;
+    min-width: 200px;
+    background-color: #2e9cca;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.signup-button:hover {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.pw-container {
+    position: relative;
+}
+
+.show-n-hide {
+    width: 15px;
+    position: absolute;
+    top: 73%;
+    right: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.pw{
+    font-weight: bold;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
