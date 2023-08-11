@@ -56,7 +56,7 @@
     cursor: pointer;
 }
 
-.active::before {
+.activelink::before {
     content: "";
     position: absolute;
     top: 0;

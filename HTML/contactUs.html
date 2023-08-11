@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="../CSS/mdb.min.css">
+    <link rel="stylesheet" href="../CSS/mdb.min.css"> 
+    <link rel="stylesheet" href="../CSS/scrollAnimation.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -44,7 +45,7 @@
                         <a class="nav-link" href="../HTML/community.html">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="../HTML/contactUs.html">Contact Us</a>
+                        <a class="nav-link activelink" href="../HTML/contactUs.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -69,11 +70,11 @@
             <h1 class="heading"><span>&nbsp Contact Us &nbsp</span></h1>
         </div>
 
-        <div class="text-center">
+        <div class="text-center reveal-load fade-bottom">
             <h3 class="help"><span>How can we help?</span></h3>
         </div>
 
-        <div class="row mt-5 justify-content-center align-items-center shadow-lg mb-10">
+        <div class="row mt-5 justify-content-center align-items-center shadow-lg mb-10 reveal-load fade-bottom">
 
             <img src="../Images/img5.jpg" alt="img2" class="col-md-6">
             
@@ -82,12 +83,12 @@
                 <h4 class="text-center mt-5 mb-4"><b>Send us a message</b></h4>
 
                 <label for="name" class="mb-1"><b>Your Name</b></label><br>
-                <input type="text" name="name" id="name" class="input mb-4">
+                <input type="text" name="name" id="name" class="input mb-4" required>
 
                 <div class="row mb-4">
                     <div class="col-8">
                         <label for="email" class="mb-1"><b>Email</b></label><br>
-                        <input type="email" name="email" id="email" class="input">
+                        <input type="email" name="email" id="email" class="input" required>
                     </div>
 
                     <div class="col-4">
@@ -97,7 +98,7 @@
                 </div>
 
                 <label for="name" class="mb-1"><b>Your message</b></label><br>
-                <textarea name="message" id="message" class="input mb-4" rows="3"></textarea>
+                <textarea name="message" id="message" class="input mb-4" rows="3" required></textarea>
 
                 <div class="text-end mb-5">
                     <input type="submit" value="Send" class="submit">
@@ -163,6 +164,7 @@
     </footer>
 
     <script type="text/javascript" src="../Bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../JS/scrollAnimation.js"></script>
 </body>
 
 </html>
